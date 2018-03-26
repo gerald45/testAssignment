@@ -1,0 +1,220 @@
+body {
+
+  font-family: 'Lato', sans-serif;
+}
+.nav-header {
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+.homepage-banner {
+  background-image: url("images/hero-image.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner-main-content {
+	color: #fff;
+	padding-top: 5%;
+    padding-bottom: 3%;
+}
+.inner-content {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.bottom-content {
+    margin-left: 35%;
+    margin-right: 35%;
+    color: #fff;
+}
+p.bottom-text {
+    float: right;
+    margin-right: 30px;
+}
+.bottom-content img {
+    width: 35px;
+}
+.botton-container {
+	background-color: #0000005c;
+}
+.inner-content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}    
+.inner-content span {
+    
+    padding: 5px;
+}
+.blue-tooltip + .tooltip > .tooltip-inner {background-color: #324de0;}
+[data-placement="top"] + .tooltip > .tooltip-arrow {
+  border-top-color: #324de0;
+}
+.red-tooltip + .tooltip > .tooltip-inner {background-color: #FF0000;}
+[data-placement="bottom"] + .tooltip > .tooltip-arrow {
+  border-bottom-color: #FF0000;
+}
+
+input[type="button"] {
+    background-color: #324de0;
+    border: solid 2px #324de0;
+}
+
+@media (min-width: 1254px) and (max-width: 1358px ) {
+	.inner-content {
+    	margin-left: 35%;
+    	margin-right: 35%;
+	}
+	.bottom-content {
+    	margin-left: 34%;
+    	margin-right: 34%;
+	}
+}
+@media (min-width: 917px) and (max-width:1253px ) {
+	.inner-content {
+    	margin-left: 30%;
+    	margin-right: 30%;
+	}
+	.bottom-content {
+    	margin-left: 28%;
+    	margin-right: 28%;
+	}
+}
+@media (min-width: 840px) and (max-width:916px ) {
+	.inner-content {
+    	margin-left: 27%;
+    	margin-right: 27%;
+	}
+	.bottom-content {
+    	margin-left: 25%;	
+    	margin-right: 25%;
+	}
+}
+
+@media (min-width: 800px) and (max-width:839px ) {
+	.inner-content {
+    	margin-left: 26%;
+    	margin-right: 26%;
+	}
+	.bottom-content {
+    	margin-left: 20%;	
+    	margin-right: 20%;
+	}
+}
+@media (min-width: 787px) and (max-width:799px ) {
+	.inner-content {
+    	margin-left: 26%;
+    	margin-right: 26%;
+	}
+	.bottom-content {
+    	margin-left: 23%;	
+    	margin-right: 23%;
+	}
+}
+@media (max-width: 787px){
+	li.signup {
+	    margin-left: 0px !important;
+	}
+}
+@media (min-width: 767px) and (max-width:786px ) {
+	.inner-content {
+    	margin-left: 23%;
+    	margin-right: 23%;
+	}
+	.bottom-content {
+    	margin-left: 20%;	
+    	margin-right: 20%;
+	}
+}
+@media (min-width: 537px) and (max-width:766px ) {
+	.inner-content {
+    	margin-left: 23%;
+    	margin-right: 23%;
+	}
+	.bottom-content {
+    	margin-left: 10%;	
+    	margin-right: 10%;
+	}
+}
+@media (min-width: 320px) and (max-width:536px ) {
+	.inner-content {
+    	margin-left: 5%;
+    	margin-right: 5%;
+	}
+	.bottom-content {
+    	margin-left: 3%;	
+    	margin-right: 3%;
+	}
+	p.bottom-text {
+    	font-size: 9px;
+	}
+}
+
+
+
+
+
+
+
+a.navbar-brand {
+    height: 100%;
+}
+.navbar-brand img {
+	max-height: 50px;
+}
+.navbar-right {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-default .navbar-nav>.active>a {
+	background-color: #fff;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fff;
+}
+.login a:hover {
+    background-color: #333 !important; 
+}
+.login a:hover {
+    background-color: #333 !important; 
+}
+li.login>a {
+    margin-top: 10px;
+    background-color: #30920e;
+    border-radius: 20px;
+    color: #fff !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+li.signup>a {
+    margin-top: 10px;
+    background-color: #324de0;
+    border-radius: 20px;
+    color: #fff !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+li.login {
+    width: 100px;
+}
+li.signup {
+	margin-left: 10px;
+    width: 100px;
+}
+.breadcrumb {
+	margin-bottom: 0px;
+	background-color: #324de0;
+	    border-radius: 0px;
+}
+li.breadcrumb-item>a {
+    color: #fff;
+    font-weight: bold;
+}
+.breadcrumb>.active {
+    color: #fff;
+}
+.banner-title {
+	font-family: 'Roboto Condensed', sans-serif;
+}
